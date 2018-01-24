@@ -1,2 +1,3 @@
-# barcodies
-Simple barcode generation API
+# Barcodies
+
+Simple barcode generation API.
