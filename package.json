@@ -23,7 +23,6 @@
     "homepage": "https://github.com/hivesolutions/barcodies#readme",
     "files": [
         "app.js",
-        "lib/**/*.css",
         "lib/**/*.js",
         "test/**/*.js"
     ],
