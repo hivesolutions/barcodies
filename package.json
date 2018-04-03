@@ -28,7 +28,7 @@
     ],
     "dependencies": {
         "express": "^4.16.3",
-        "hive-js-util": "^0.1.12",
+        "hive-js-util": "^0.1.13",
         "mz": "^2.7.0",
         "qr-image": "~3.2.0",
         "qrcode": "^1.2.0"
