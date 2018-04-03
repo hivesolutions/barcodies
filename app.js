@@ -8,6 +8,10 @@ const lib = require("./lib");
 // by the application for serving
 const app = express();
 
+process.on("SIGINT", function() {
+    process.exit();
+});
+
 process.on("exit", () => {
     util.Logging.info("Exiting on user's request");
     lib.destroy();
