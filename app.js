@@ -1,6 +1,7 @@
 // requires the multiple libraries
 const express = require("express");
 const process = require("process");
+const util = require("hive-js-util");
 const lib = require("./lib");
 
 // builds the initial application object to be used
@@ -8,7 +9,7 @@ const lib = require("./lib");
 const app = express();
 
 process.on("exit", () => {
-    console.log("Exiting on user's request");
+    util.Logging.info("Exiting on user's request");
     lib.destroy();
 });
 
@@ -24,6 +25,6 @@ app.get("/", (req, res, next) => {
 });
 
 app.listen(lib.PORT, lib.HOSTNAME, () => {
-    console.log("Listening on " + lib.HOSTNAME + ":" + String(lib.PORT));
+    util.Logging.info("Listening on " + lib.HOSTNAME + ":" + String(lib.PORT));
     lib.init();
 });
