@@ -8,6 +8,18 @@ const lib = require("./lib");
 // by the application for serving
 const app = express();
 
+var logger = util.Logging.getLogger(undefined, {
+    level: util.Logging.constants.DEBUG
+});
+
+if (util.Logging.ConsolaHandler.isReady()) {
+    logger.addHandler(new util.Logging.ConsolaHandler());
+} else {
+    logger.addHandler(new util.Logging.StreamHandler());
+}
+
+logger.setFormatter(new util.Logging.SimpleFormatter());
+
 process.on("exit", () => {
     util.Logging.info("Exiting on user's request");
     lib.destroy();
