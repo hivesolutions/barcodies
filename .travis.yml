@@ -2,7 +2,6 @@ sudo: false
 dist: trusty
 language: node_js
 node_js:
-  - "7"
   - "8"
   - "9"
   - "10"
@@ -17,4 +16,4 @@ deploy:
     secure: OlGlhh3rmYfFdjbFS+dsYuxn/BduKnZz63LcgCLYoVN5DGW1YUcwcegpw9SQ0vxwlT9tlLKDxv+70WocgzwuEdIHW2uPYsmJR0VX3vfZFSLVxlPRd0/dTgJPSgoJ1eI2w9HRbIALeK/oIn6NOHq8FsuB6woq3t5HuI6Bya1x0dJiMH1dF80umJijXze38MrDPcClRhU/zVXfdY8F5HWKQuXEbT2SSOJ1rlEJAQQlD0Etrut/ET4+GOrLLZxTxZVNF8w3kxKv8A4huX4jpBcubLuXQVofH+PUJVaGTvgHldR2oWKZTuqXlnbTYMhMgJbekl7IJoYyDSiR3nlC1czXoTxA6YyyznDQvhjnMIl5J6cL3du2ZqnMuN+tZ/hkdtRrBCyLfuXe9o5pJauAmQucwZ+RMU8NJyQ+ObyKp69Q67+KBXAq5eylICslGxBFmpRWUtB/UX3wde7umazQpn1V6VGEARJ0iT+DusDbAPadNRqU65pM4lKSZm+8GnVz3cREy12y1oKCFmTMbl5iYz2p/NKAYuXdmx8TEJ5vY7W4n4y/kR+UlXYfHHIaUHTgsfVOZg0mloHgEawOniHb21v8wtX5fYiGT/D/sIy/MvjyNIB0oCz9vE2/N9FsdQw8uWxOycl8gzv4YcsPv0L86m4iJKiZ8YtGJSxJdoMN33mL1+w=
   on:
     tags: true
-    node_js: "7"
+    node_js: "8"
