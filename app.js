@@ -2,7 +2,7 @@
 const express = require("express");
 const process = require("process");
 const util = require("hive-js-util");
-const package = require("./package");
+const info = require("./package");
 const lib = require("./lib");
 
 // builds the initial application object to be used
