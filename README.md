@@ -4,8 +4,9 @@ Simple barcode generation Web App.
 
 ## Configuration
 
-* `BARCODIES_KEY` (`str`) - Secret key that should be passed in protected calls so that the server side
-"trusts" the client side (authentication) (defaults to `None`)
+| Name | Type | Description |
+| ----- | ----- | ----- |
+| `BARCODIES_KEY` | `str` | Secret key that should be passed in protected calls so that the server side "trusts" the client side (authentication) (defaults to `None`). |
 
 ## License
 
