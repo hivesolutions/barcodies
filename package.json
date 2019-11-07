@@ -34,18 +34,19 @@
     "dependencies": {
         "consola": "^2.10.1",
         "express": "^4.17.1",
-        "hive-js-util": "^0.2.1",
+        "hive-js-util": "^0.2.2",
         "mz": "^2.7.0",
         "qr-image": "^3.2.0",
-        "qrcode": "^1.4.1"
+        "qrcode": "^1.4.4",
+        "yonius": "^0.2.12"
     },
     "devDependencies": {
-        "eslint": "^6.4.0",
-        "eslint-config-hive": "^0.1.22",
-        "mocha": "^6.2.0",
-        "npm-check-updates": "^3.1.23",
+        "eslint": "^6.6.0",
+        "eslint-config-hive": "^0.2.2",
+        "mocha": "^6.2.2",
+        "npm-check-updates": "^3.2.0",
         "prettier": "^1.18.2",
         "prettier-config-hive": "^0.1.1",
-        "sort-package-json": "^1.22.1"
+        "sort-package-json": "^1.23.1"
     }
 }
